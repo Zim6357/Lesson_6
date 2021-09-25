@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css?family=Abel:regular&display=swap&subset=cyrillic-ext");
+@font-face {
+    font-family: "Red October";
+    src: url("../fonts/RedOctober.woff2") format("woff2"),
+        url("../fonts/RedOctober.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Red October";
+    src: url("../fonts/RedOctoberLight.woff2") format("woff2"),
+        url("../fonts/RedOctoberLight.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	font-family: "Red October";
+}
+
+.title {
+	width: 500px;
+	height: 100px;
+	background-color: #cccc33;
+	padding: 35px 25px 25px 25px;
+	margin: 40px auto;
+	margin-bottom: 20px;
+	box-shadow: 10px 10px 20px #cccc33;
+}
+.title h1 {
+	font-weight: 900;
+	font-size: 25px;
+	text-align: center;
+}
+.header {
+	width: 100%;
+	margin: 5px 2px 1px 2px;
+	
+	
+}
+.header p {
+	display: inline-block;
+	width: 150px;
+	height: 400px;
+	background-color: #999;
+	padding: 5px;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.paragraph1 {
+	color: #b12c2c;
+	margin: 0 5px 0 10px;
+	border: 3px solid #b12c2c;
+	border-radius: 10px 10px 20px 20px;
+}
+
+.paragraph2,
+.paragraph3,
+.paragraph4 {
+	margin: 0 5px 0 5px;
+}
+
+
+
+.paragraph2 {
+	border: 4px dotted #cccc33;
+	border-radius: 30px 0;
+}
+.paragraph3 {
+	font-family: "Abel";
+	font-weight: bold;
+	border: 5px dashed #666600;
+	border-radius: 50%;
+	
+}
+.paragraph4 {
+	font-style: oblique;
+	border: 10px double #99cc66;
+	border-radius: 30px 30px 30px 30px/10px 10px 10px 10px;
+}
+.paragraph5 {
+	text-decoration: underline;
+	margin: 15px 5px 0 20px;
+	outline: 10px solid #cccc33 ;
+}
+.block {
+	padding: 20px 0 0 20px; 
+	vertical-align: top;
+	margin: 30px 0 10px 0;
+}
+.content {
+	width: 230px;
+	padding: 3px 3px 3px 3px;
+	border: 5px solid #999;
+	border-radius: 25px 25px 25px 25px;
+	box-shadow: 5px 5px inset rgba(161, 123, 123, 0.6);
+}
+.content span {
+	margin: 10px 10px 10px 10px;
+    height: 40px;
+	display: block;
+	outline: 6px solid #999;
+}
+.foto {
+	width: 350px;
+	height: 350px;
+    margin: -410px 100px 0 450px;
+	border: 20px solid #666600;
+	border-radius: 50%;
+	box-shadow: 15px -25px 25px 15px #7a7a02;
+}
+.block_2 {
+	font-family: "Abel";
+	text-align: center;
+	font-weight: 900;
+	font-size: 50px;
+	color: #cccc33;
+	width: 450px;
+	height: 110px;
+	padding: 1px 1px 1px 1px;
+	margin: 50px auto;
+	margin-bottom: 0;
+	border: 5px solid #cccc33;
+	border-radius: 25px 25px 25px 25px;
+}
+.sait {
+	opacity: 0;
+}
+h2 {
+	font-size: 30px;
+	color: #666633;
+	text-align: center;
+	margin-top: 30px;
+}
+.block_3 {
+	max-width: 100%;
+	max-height: 100%;
+	border: 3px dashed #666633;
+	margin: -2px 25px 10px 25px;
+}
+.exercise_1 {
+	width: 200px;
+	height: 200px;
+    border: 2px solid #000;
+	margin: 10px auto;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.exercise_2 {
+	margin: 25px 25px 25px 25px;
+	opacity: 0.5;
+}
+
+.exercise_3 {
+	padding: 10px 10px 10px 10px;
+	margin: 0 25px;
+	
+}
+.exercise_3 span {
+	outline: 10px solid #e70b0b;
+}
+
+
+.element_1,
+.element_2,
+.element_3,
+.element_4 {
+	width: 800px;
+	height: 200px;
+	margin: 10px 25px;
+}
+
+.element_1 {
+	border: 10px solid #000;
+}
+.element_2 {
+	border: 15px dashed #999;
+}
+.element_3 {
+	border: 20px dotted #666633;
+}
+.element_4 {
+	border: 25px double #7a7a02;
+}
+.sait_2 {
+	font-size: 50px;
+	color: #999999;
+	display: block;
+	width: 250px;
+	margin: 30px auto;
+	
+	box-shadow: 10px 10px 10px 5px #999;
+}
+
+
+
+
+
+
+
+
+
+
+
